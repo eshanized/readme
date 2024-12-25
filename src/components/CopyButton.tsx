@@ -24,7 +24,7 @@ export function CopyButton({ text, className = '' }: CopyButtonProps) {
       onClick={handleCopy}
       className={`p-2 rounded-lg transition-colors ${
         copied 
-          ? 'bg-green-500/20 text-green-400 hover:bg-green-500/30' 
+          ? 'bg-[#6495ed]/20 text-[#6495ed] hover:bg-[#6495ed]/30' 
           : 'bg-white/10 text-white/60 hover:bg-white/20'
       } ${className}`}
       title={copied ? 'Copied!' : 'Copy to clipboard'}

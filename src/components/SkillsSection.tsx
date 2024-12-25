@@ -64,7 +64,7 @@ export function SkillsSection({ skills, onChange }: SkillsSectionProps) {
                       onClick={() => toggleSkill(skill)}
                       className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${
                         skills.includes(skill)
-                          ? 'bg-purple-500 text-white'
+                          ? 'bg-[#6495ed] text-white'
                           : 'bg-white/5 text-white/80 hover:bg-white/10'
                       }`}
                     >

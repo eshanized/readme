@@ -7,7 +7,7 @@ export function SkillBadge({ skill, onRemove }: SkillBadgeProps) {
   return (
     <div className="group relative inline-flex items-center">
       <img
-        src={`https://img.shields.io/badge/${skill}-555555?style=for-the-badge`}
+        src={`https://img.shields.io/badge/${skill}-6495ed?style=for-the-badge`}
         alt={skill}
         className="h-7"
       />

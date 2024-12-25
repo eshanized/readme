@@ -35,7 +35,7 @@ export function Projects({ projects, onChange }: ProjectsProps) {
         <h2 className="text-xl font-semibold text-white">Projects</h2>
         <button
           onClick={() => setIsAdding(true)}
-          className="flex items-center gap-2 px-3 py-1.5 bg-purple-500 rounded-lg hover:bg-purple-600 transition-colors"
+          className="flex items-center gap-2 px-3 py-1.5 bg-[#6495ed] rounded-lg hover:bg-[#6495ed]/80 transition-colors"
         >
           <Plus size={16} />
           Add Project
@@ -177,7 +177,7 @@ function ProjectForm({ onSubmit, onCancel }: {
         </button>
         <button
           type="submit"
-          className="px-3 py-1.5 bg-purple-500 rounded-lg hover:bg-purple-600 transition-colors"
+          className="px-3 py-1.5 bg-[#6495ed] rounded-lg hover:bg-[#6495ed]/80 transition-colors"
         >
           Save
         </button>

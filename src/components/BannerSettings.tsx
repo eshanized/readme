@@ -44,7 +44,7 @@ export function BannerSettings({ banner, onChange }: BannerSettingsProps) {
               setShowCustomUrl(e.target.value === 'custom');
               onChange({ ...banner, type: e.target.value });
             }}
-            className="glass-input w-full"
+            className="glass-input w-full bg-black text-white border border-white/30 rounded-md"
           >
             {bannerTypes.map(type => (
               <option key={type.value} value={type.value}>{type.label}</option>
@@ -74,7 +74,7 @@ export function BannerSettings({ banner, onChange }: BannerSettingsProps) {
               <select
                 value={banner.color}
                 onChange={(e) => onChange({ ...banner, color: e.target.value })}
-                className="glass-input w-full"
+                className="glass-input w-full bg-black text-white border border-white/30 rounded-md"
               >
                 {gradientColors.map(color => (
                   <option key={color.value} value={color.value}>{color.label}</option>
@@ -93,7 +93,7 @@ export function BannerSettings({ banner, onChange }: BannerSettingsProps) {
                 min="100"
                 max="400"
                 step="10"
-                className="glass-input w-full"
+                className="glass-input w-full bg-black text-white border border-white/30 rounded-md"
               />
             </div>
           </>

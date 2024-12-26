@@ -15,7 +15,7 @@ export function generateMarkdown(data: ProfileData): string {
 
   // Title and About
   if (data.name || data.title) {
-    sections.push(`<div align="center"> ${data.name}${data.title ? ` | ${data.title}` : ''} </div>`);
+    sections.push(`<h1 align="center"> ${data.name}${data.title ? ` | ${data.title}` : ''} </h1>`);
   }
 
   if (data.about) {

@@ -74,3 +74,11 @@ body:
       description: |
         Include any relevant logs or stack traces. If applicable, paste the log here or attach a file.
       placeholder: "Paste logs here..."
+  - type: checkboxes
+    attributes:
+      label: Self-service
+      description: |
+        If you feel like you could contribute to fixing this issue, please check the box below. This will notify us and others looking for contributions that someone's working on it.
+        If you check this box, please send a pull request within 7 days so we can delegate this to someone else if necessary.
+      options:
+        - label: I'd be willing to fix this bug myself.

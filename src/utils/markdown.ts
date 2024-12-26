@@ -15,11 +15,11 @@ export function generateMarkdown(data: ProfileData): string {
 
   // Title and About
   if (data.name || data.title) {
-    sections.push(`# ${data.name}${data.title ? ` | ${data.title}` : ''}`);
+    sections.push(`<div align="center"> ${data.name}${data.title ? ` | ${data.title}` : ''} </div>`);
   }
 
   if (data.about) {
-    sections.push(data.about);
+    sections.push(`<p align="center"> ${data.about} </p>`);
   }
 
   // Social Links
@@ -37,7 +37,7 @@ ${socialBadges.join(' ')}
 
   // Skills
   if (data.skills.length > 0) {
-    sections.push(`## 🛠 Skills
+    sections.push(`<h2 align="center"> 🛠 Skills </h2>
 
 <div align="center">
 
@@ -48,7 +48,7 @@ ${data.skills.map(skill => `![${skill}](${getBadgeUrl(skill)})`).join(' ')}
 
   // Work Experience
   if (data.workExperience.length > 0) {
-    sections.push(`## 💼 Work Experience
+    sections.push(`<h2 align="center"> 💼 Work Experience </h2>
 
 ${data.workExperience.map(formatWorkExperience).join('\n\n')}`);
   }

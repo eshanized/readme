@@ -1,12 +1,22 @@
 # README Generator 📄✨  
 
-[![GitHub stars](https://img.shields.io/github/stars/eshanized/readme?style=for-the-badge&logo=github)](https://github.com/eshanized/readme/stargazers)  
-[![GitHub forks](https://img.shields.io/github/forks/eshanized/readme?style=for-the-badge&logo=github)](https://github.com/eshanized/readme/network/members)  
-[![GitHub issues](https://img.shields.io/github/issues/eshanized/readme?style=for-the-badge&logo=github)](https://github.com/eshanized/readme/issues)  
-[![MIT license](https://img.shields.io/github/license/eshanized/readme?style=for-the-badge)](LICENSE)  
-
-[![Visit My Website](https://img.shields.io/badge/Live-Preview-6495ed?style=for-the-badge&logo=firefox&logoColor=white)](https://eshanized.github.io/readme)
-
+<p align="center">
+  <a href="https://github.com/eshanized/readme/stargazers">
+    <img src="https://img.shields.io/github/stars/eshanized/readme?style=for-the-badge&logo=github" alt="GitHub stars" />
+  </a>
+  <a href="https://github.com/eshanized/readme/network/members">
+    <img src="https://img.shields.io/github/forks/eshanized/readme?style=for-the-badge&logo=github" alt="GitHub forks" />
+  </a>
+  <a href="https://github.com/eshanized/readme/issues">
+    <img src="https://img.shields.io/github/issues/eshanized/readme?style=for-the-badge&logo=github" alt="GitHub issues" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/eshanized/readme?style=for-the-badge" alt="MIT license" />
+  </a>
+  <a href="https://eshanized.github.io/readme">
+    <img src="https://img.shields.io/badge/Live-Preview-6495ed?style=for-the-badge&logo=firefox&logoColor=white" alt="Live Preview" />
+  </a>
+</p>
 
 ## 🌟 About the Project  
 

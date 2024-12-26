@@ -1,0 +1,76 @@
+name: Bug Report
+
+description: |
+  Please provide a clear and concise description of the issue you're facing.
+
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is and how it affects your project.
+      placeholder: "Describe the bug..."
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: |
+        Please list the steps to reproduce the bug, including the command you ran and any relevant context.
+      placeholder: |
+        1. Step 1
+        2. Step 2
+        3. Step 3
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen after running the command or code.
+      placeholder: "What were you expecting to happen?"
+
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: What actually happens. Include any error messages or unexpected behavior.
+      placeholder: "What did happen instead?"
+
+  - type: input
+    attributes:
+      label: Node version
+      description: The version of Node.js you're using.
+      placeholder: "e.g., v14.17.6"
+      required: true
+
+  - type: input
+    attributes:
+      label: npm version
+      description: The version of npm you're using.
+      placeholder: "e.g., 7.19.1"
+      required: true
+
+  - type: input
+    attributes:
+      label: Operating system
+      description: "e.g., MacOS, Windows, Linux"
+      placeholder: "e.g., MacOS, Windows, Linux"
+      required: true
+
+  - type: input
+    attributes:
+      label: Package version
+      description: The version of the package where the bug occurs.
+      placeholder: "e.g., 1.2.3"
+  
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: |
+        Any additional context or screenshots that could help us better understand the issue. If applicable, include a link to a code sandbox, a GitHub repo, or a minimal reproduction.
+      placeholder: "Include any additional context here."
+
+  - type: textarea
+    attributes:
+      label: Logs
+      description: |
+        Include any relevant logs or stack traces. If applicable, paste the log here or attach a file.
+      placeholder: "Paste logs here..."

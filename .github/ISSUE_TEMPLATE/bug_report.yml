@@ -1,7 +1,7 @@
-name: Bug Report
-
-description: |
-  Please provide a clear and concise description of the issue you're facing.
+name: 👾 Report Bugs in Readme!
+description: Help me/us make this project better.
+labels: [bug]
+assignees: eshanized
 
 body:
   - type: textarea

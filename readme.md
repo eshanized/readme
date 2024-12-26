@@ -164,4 +164,8 @@ If you find this project helpful, please:
 - 📢 Share it with your developer friends.  
 - 🛠️ Contribute to its growth.  
 
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20Me%20on-GitHub-6495ed?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/eshanized)
+<p align="center">
+  <a href="https://github.com/sponsors/eshanized">
+    <img src="https://img.shields.io/badge/Sponsor%20Me%20on-GitHub-6495ed?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors" />
+  </a>
+</p>

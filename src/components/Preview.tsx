@@ -13,7 +13,7 @@ export function Preview({ data }: PreviewProps) {
 
   return (
     <GlassCard className="p-6">
-      <h2 className="text-xl font-semibold mb-4 text-white">Preview</h2>
+      <h2 className="text-xl font-semibold mb-4 text-[#6495ed]">Preview</h2>
       
       {/* Raw Markdown */}
       <div className="mb-8">

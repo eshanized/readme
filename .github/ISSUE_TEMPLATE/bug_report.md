@@ -1,38 +1,44 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Report Bug on Readme!
+about: Create a report to help me/us improve the project
 title: ''
-labels: ''
-assignees: ''
-
+labels: 'bug'
+assignees: 'eshanized'
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Bug Report
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+### Description
+A clear and concise description of what the bug is and how it affects your project.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+### Steps to Reproduce
+Please list the steps to reproduce the bug, including the command you ran and any relevant context:
+1. Step 1
+2. Step 2
+3. Step 3
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+### Expected Behavior
+What you expected to happen after running the command or code.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+### Actual Behavior
+What actually happens. Include any error messages or unexpected behavior.
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+### Environment
+- **Node version**: `node -v`
+- **npm version**: `npm -v`
+- **Operating system**: (e.g., MacOS, Windows, Linux)
+- **Package version**: (e.g., `1.2.3`)
+- **Other relevant software versions**: (e.g., specific framework versions, etc.)
 
-**Additional context**
-Add any other context about the problem here.
+### Additional Information
+- Any additional context or screenshots that could help us better understand the issue.
+- If applicable, include a link to a code sandbox, a GitHub repo, or a minimal reproduction.
+
+### Steps to Fix (Optional)
+If you have any insights on how this issue can be fixed or any potential workarounds, please include them here.
+
+### Related Issues (Optional)
+If this bug is related to other open issues, link to them here.
+
+### Logs
+Include any relevant logs or stack traces.
